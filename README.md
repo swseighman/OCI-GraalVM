@@ -264,11 +264,11 @@ writing RSA key
 
 Copy your Public Key and paste it into your Oracle Cloud console. From the Menu, choose **Identity -> Users -> API Keys -> Add API Key**
 
-![](//wsl$/Fedora/home/sseighma/code/oci-demo/images/oci-1.png)
+![](images/oci-1.png)
 
-![](//wsl$/Fedora/home/sseighma/code/oci-demo/images/oci-2.png)
+![](images/oci-2.png)
 
-![](//wsl$/Fedora/home/sseighma/code/oci-demo/images/oci-3.png)
+![](images/oci-3.png)
 
 
 From your Oracle Cloud Account, you’ll need to capture OCIDs for:
@@ -279,21 +279,21 @@ From your Oracle Cloud Account, you’ll need to capture OCIDs for:
 
 Obtaining your **Tenancy** OCID:
 
-![](//wsl$/Fedora/home/sseighma/code/oci-demo/images/oci-5.png)
+![](images/oci-5.png)
 
-![](//wsl$/Fedora/home/sseighma/code/oci-demo/images/oci-6.png)
+![](images/oci-6.png)
 
 Obtaining your **Compartment** OCID:
 
-![](//wsl$/Fedora/home/sseighma/code/oci-demo/images/oci-7.png)
+![](images/oci-7.png)
 
-![](//wsl$/Fedora/home/sseighma/code/oci-demo/images/oci-8.png)
+![](images/oci-8.png)
 
 Obtaining your **User** OCID:
 
-![](//wsl$/Fedora/home/sseighma/code/oci-demo/images/oci-1.png)
+![](images/oci-1.png)
 
-![](//wsl$/Fedora/home/sseighma/code/oci-demo/images/oci-89.png)
+![](images/oci-89.png)
 
 
 Run the OCI CLI configuration script (you'll be asked to provide the OCIDs mentioned above).
@@ -499,7 +499,7 @@ In our example, we’ll provision an Oracle Linux 8.4 image, the OCID for the im
 
 [https://docs.oracle.com/en-us/iaas/images/image/f20551e8-ae52-4d99-9b5f-3c32c473e07f/](https://docs.oracle.com/en-us/iaas/images/image/f20551e8-ae52-4d99-9b5f-3c32c473e07f/)
 
-![](//wsl$/Fedora/home/sseighma/code/oci-demo/images/oci-10.png)
+![](images/oci-10.png)
 
 I’m in the US East Ashburn region:
 
@@ -730,15 +730,15 @@ The playbook will create an instance and then terminate the instance.  You can f
 
 From the Menu, choose **Compute->Instances** and then make certain you have the proper **Compartment** selected.
 
-![](//wsl$/Fedora/home/sseighma/code/oci-demo/images/oci-16.png)
+![](images/oci-16.png)
 
-![](//wsl$/Fedora/home/sseighma/code/oci-demo/images/oci-12.png)
+![](images/oci-12.png)
 
-![](//wsl$/Fedora/home/sseighma/code/oci-demo/images/oci-13.png)
+![](images/oci-13.png)
 
-![](//wsl$/Fedora/home/sseighma/code/oci-demo/images/oci-14.png)
+![](images/oci-14.png)
 
-![](//wsl$/Fedora/home/sseighma/code/oci-demo/images/oci-15.png)
+![](images/oci-15.png)
 
 
 
