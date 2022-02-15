@@ -251,14 +251,14 @@ Change the file permissions:
 Generate Public Key pem:
 
 ```
-(oci_dev) ~ $ openopenssl rsa -pubout -in ~/.oci/oci_api_key.pem -out ~/.oci/oci_api_key_public.pem
+(oci_dev) ~ $ openssl rsa -pubout -in ~/.oci/oci_api_key.pem -out ~/.oci/oci_api_key_public.pem
 writing RSA key
 ```
 
 Create Fingerprint file:
 
 ```
-(oci_dev) ~ $ openopenssl rsa -in .oci/oci_api_key.pem -pubout -outform DER | openssl md5 -c | awk -F= '{gsub(" ","",$2);print $2}' > .oci/oci_api_key_fingerprint
+(oci_dev) ~ $ openssl rsa -in .oci/oci_api_key.pem -pubout -outform DER | openssl md5 -c | awk -F= '{gsub(" ","",$2);print $2}' > .oci/oci_api_key_fingerprint
 writing RSA key
 ```
 
