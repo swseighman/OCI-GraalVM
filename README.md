@@ -11,7 +11,7 @@ Let's get started!
 First, we'll install Python virtual environments (assumes you already have Python installed):
 
 ```
-$ pip install virtualenv
+$ pip3 install virtualenv
 ```
 Create a virtual environment called `oci_dev`:
 
@@ -29,13 +29,13 @@ Notice how your prompt is now prefixed with the name of your virtual environment
 The Python OpenSSL package is a requirement so verify the Python OpenSSL version is current (must be > 1.02):
 
 ```
-(oci_dev) ~ $ python -c "import ssl; print(ssl.OPENSSL_VERSION)"
+(oci_dev) ~ $ python3 -c "import ssl; print(ssl.OPENSSL_VERSION)"
 ```
 
 If you need to upgrade, execute:
 
 ```
-(oci_dev) ~ $ pip install requests[security]==2.18.4
+(oci_dev) ~ $ pip3 install requests[security]==2.18.4
 ```
 
 OK, we have the Python dependencies in place, now we'll move on to the OCI CLI installation.
